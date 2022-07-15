@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+  margin: auto;
+}
+
+body{
+  background: hsl(0, 0%, 95%);
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+}
+
+h3{
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 200;
+  letter-spacing: 1.1px;
+  font-size: 2em;
+  margin-top: 1em;
+}
+
+.container{
+  width: 75%;
+  margin: 5em auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.container div{
+  padding: 2em 0em 2em 2em;
+}
+
+.container p{
+  text-align: left;
+  margin-left: 0;
+  margin-top: 1em;
+  font-size: .9em;
+  line-height: 25px;
+}
+
+.sedans{
+  background: hsl(31, 77%, 52%);
+  border-radius: 5px 0px 0px 5px;
+  width: 33.3%;
+}
+
+.suv{
+  background: hsl(184, 100%, 22%);
+  width: 33.3%;
+}
+
+.luxury{
+  background: hsl(179, 100%, 13%);
+  width: 33.3%;
+  border-radius: 0px 5px 5px 0px;
+}
+
+button{
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 90px;
+}
+
+.sedans button {
+  color: hsl(31, 77%, 52%);
+}
+
+.suv button{
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury button{
+  color: hsl(179, 100%, 13%);
+}
+
+button:hover{
+  background: none;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+}
