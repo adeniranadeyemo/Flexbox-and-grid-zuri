@@ -3,6 +3,10 @@
   margin: auto;
 }
 
+header a{
+  font-size: 17px;
+}
+
 body{
   background: hsl(0, 0%, 95%);
   font-family: 'Montserrat', sans-serif;
@@ -80,4 +84,35 @@ button:hover{
   border: 2px solid white;
   color: white;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 376px){
+  .container{
+    display: block;
+  }
+
+  .sedans{
+    width: 100%;
+    background: brown;
+    border-radius: 0px;
+  }
+
+  .suv{
+    margin-top: 20px;
+    width: 100%;
+    background: #2F4F4F;
+    border-radius: 0px;
+  }
+
+  .luxury{
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 0px;
+  }
+
+    button:hover{
+    background: none;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
 }

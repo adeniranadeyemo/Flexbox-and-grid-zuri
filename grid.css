@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+  margin: auto;
+}
+
+body{
+  font-size: 17px;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+main{
+  display: grid;
+  grid-template-areas:
+  "a a b"
+  "a a b"
+  "c d d"
+  "c e e";
+  margin: 30%;
+  width: 50%;
+  /* background: red; */
+}
+
+main{
+  margin: 10em auto;
+}
+
+main div{
+  padding: 2em;
+  margin: 2px;
+}
+
+.a{
+  background: brown;
+  grid-area: a;
+  height: 7em;
+}
+
+.b{
+  background: cyan;
+  grid-area: b;
+  height: 7em;
+}
+
+.c{
+  background: darkorange;
+  grid-area: c;
+}
+
+.d{
+  background: darkcyan;
+  grid-area: d;
+}
+
+.e{
+  background: red;
+  grid-area: e;
+}
